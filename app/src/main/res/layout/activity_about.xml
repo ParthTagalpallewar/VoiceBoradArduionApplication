@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.About">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Project"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_below="@id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/border"
+        android:text="This Project was Created for Regional Level Technical Project Competition Dated on 13th April 2022, Organized at Government Polytechnic Amravati.
+
+        \n\n Project Participants :\n
+        \n1) Mukta Pathak
+        \n2) Kalyani Kolte
+        \n3) Tejas Bhagwat
+
+        \n\n Description: \n\n
+
+        we have voice Board, which focuses on apprising your notice on a notice board, but differently. It uses voice input, convert it into text and displays on LCD screen. ESP32 does the whole thing, it's acting as a web server which helps to send data and get response. Here, encoding takes place to send something readable to the board.
+
+        \n\n          Input data is transmitted over HTTP, from Android to Server. Such display boards can be used as per requirement.
+"
+
+
+
+        android:textSize="16dp"
+        android:lineSpacingExtra="3dp"
+        />
+
+</RelativeLayout>
